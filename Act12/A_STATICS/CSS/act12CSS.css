@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Teko";
+  src: url(../LIBRERIAS/fontawesome/FONTS/Teko-Medium.ttf);
+}
+@font-face {
+  font-family: "TekoBold";
+  src: url(../LIBRERIAS/fontawesome/FONTS/Teko-Bold.ttf);
+}
+body{
+  background: rgb(241,37,68);
+  background: linear-gradient(0deg, rgba(241,37,68,0.969625350140056) 0%, rgba(249,221,34,1) 100%);
+  display: block;
+  align-content: center;
+}
+table{
+  width: 70vw;
+  height: 100vh;
+  margin-left: 16em;
+  background-color: rgba(119, 119, 119, 0.73);
+  padding: 50px;
+  font-family: "Teko";
+}
+th{
+  font-size: 100px;
+  font-family: "TekoBold";
+  text-decoration: overline;
+}
+footer{
+  background-color: rgba(119, 119, 119, 0.73);
+
+}
+.juego{
+  text-decoration: overline;
+  color: rgba(10, 50, 170, 0.87);
+  transition: font-size 0.5s ease-in-out;
+}
+.juego:hover{
+  font-size: 50px;
+}
+.desc{
+  padding-left: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+.foto{
+  border-right: 10px double;
+  border-radius: 10px;
+  transition: border-right 0.4s ease-in-out;
+  transition: width 0.8s ease;
+}
+.foto:hover{
+  border-right: 15px double;
+  width: 500px;
+  /*display: none;*/
+}
+.Dnator{
+  width: 400px;
+  border-bottom: 10px double;
+  border-top: 10px double;
+  border-radius: 5px;
+  transition: border-bottom 1.2s ease-in-out;
+  transition: border-top 1.2s ease-in-out;
+  transition: border-radius 1.2s ease-in-out;
+  transition: width 1.2s ease-in-out;
+}
+.Dnator:hover{
+  width: 1000px;
+  border-bottom: 20px double;
+  border-top: 20px double;
+  border-radius: 10px;
+}
+#footer{
+  text-decoration: none;
+  color: black;
+  margin-left: 5em;
+  background-color: rgba(119, 119, 119, 0.73);
+  transition: font-size 0.6s ease-in-out;
+  /*padding-left: 400px;
+  padding-right: 400px;*/
+}
+#footer::after{
+  content: "Hecho por: Muriel González Diego";
+}
+#footer:hover{
+  font-size: 50px;
+}
