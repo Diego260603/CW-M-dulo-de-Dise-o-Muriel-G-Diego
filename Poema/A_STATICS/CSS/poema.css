@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "Teko";
+  src: url(../LIBRERIAS/fontawesome/FONTS/Teko-Bold.ttf);
+}
+@font-face {
+  font-family: "Chido";
+  src: url(../LIBRERIAS/fontawesome/FONTS/MetalMania-Regular.ttf);
+}
+body{
+  size: 100vh;
+  background-image: url(https://images.pexels.com/photos/1367192/pexels-photo-1367192.jpeg?cs=srgb&dl=abetos-al-aire-libre-arboles-bosque-1367192.jpg&fm=jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+p{
+  font-family: cursive;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+ul{
+  list-style-type: none;
+}
+.color1{
+  color: rgba(246, 99, 26, 0.87);
+}
+.color2{
+  color: rgba(16, 110, 233, 0.84);
+}
+.container{
+  align-self: center;
+  width: 50vh;
+  height: 100vw;
+  background-color: rgba(208, 208, 208, 0.41);
+}
+.titulo{
+  background-color: rgba(208, 208, 208, 0.81);
+  font-family: "Teko";
+  font-size: 50px;
+  text-shadow: 20px 20px 4px rgba(54, 54, 54, 0.75);
+  text-decoration: overline;
+  text-align: center;
+}
+.uno{
+  text-align: left;
+  padding: 5px;
+  text-shadow: 10px 10px 2px rgba(54, 54, 54, 0.75);
+  line-height: 1;
+  transition: font-size 0.5s ease-in-out;
+}
+.hover:hover{
+  font-size: 30px;
+}
+.dos{
+  text-align: right;
+  padding: 5px;
+  text-transform: capitalize;
+  line-height: 1;
+  transition: all 0.5s ease-in-out;
+  text-decoration: none;
+}
+.colorsi:hover{
+  color: rgba(26, 66, 27, 0.9);
+  font-size: 30px;
+  text-decoration: overline;
+  line-height: 0.7;
+}
+.cita{
+  font-family: "Chido";
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+.equipo{
+  text-align: center;
+  text-decoration: overline;
+  line-height: 2;
+  font-family: "Chido";
+  font-size: 40px;
+}
