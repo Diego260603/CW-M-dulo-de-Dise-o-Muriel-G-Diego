@@ -1,0 +1,103 @@
+body{
+  background-color: rgba(28, 158, 222, 0.57);
+}
+section{
+  border-radius: 2em rgba(246, 146, 14, 0.81);
+  background-color:rgba(50, 47, 42, 0.96);
+  width: 90vw;
+  left: 100;
+  position: static;
+  margin-left: 4em;
+  padding-left: 50px;
+  padding: 10px;
+}
+#span{
+  font-family: "MetalMania";
+  font-size: 40px;
+  color: rgb(198, 198, 198);
+  position: static;
+  margin-left: 14em;
+}
+a:link{
+  text-decoration: none;
+}
+nav{
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(60, 21, 105, 0.84);
+}
+th{
+  background-color: rgba(81, 19, 135, 0.77);
+  color: rgb(182, 226, 225);
+}
+td{
+  background-color: rgba(128, 33, 96, 0.81);
+  color: rgba(125, 125, 125, 0.06);
+  transition: all 0.5s ease-in-out;
+}
+td:hover{
+  background-color: rgba(33, 99, 128, 0.81);
+  color: rgba(219, 219, 219, 0.92);
+}
+.tabla{
+  border: collapse;
+  border-radius: 2px;
+  border-color: rgba(0, 55, 245, 0.84);
+  position: relative;
+  left: 30vw;
+}
+#dropdown>li{
+  font-size: 50px;
+  padding: 0 1em;
+  line-height: 2;
+  position: relative;
+  left: 38%;
+  list-style: none;
+  width: 250px;
+}
+#dropdown>li:hover{
+  background-color: rgb(152, 84, 66);
+  cursor: default;
+}
+#dropdown>li ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+  box-shadow: 2px 2px 3px rgba(22, 22, 22, 0.77);
+  left: 0;
+  width: 350px;
+}
+#dropdown>li ul li{
+  font-size: 30px;
+  display: none;
+  background-color: rgb(198, 107, 82);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+#dropdown>li:hover ul li{
+  display: block;
+  cursor: pointer;
+}
+#hobbies{
+  text-decoration: overline underline;
+  color: rgba(153, 151, 151, 0.88);
+  font-family: MetalMania;
+  font-size: 100px;
+  position: static;
+  margin-left: 2em;
+}
+#gustos{
+  text-decoration: overline underline;
+  color: rgba(153, 151, 151, 0.88);
+  font-family: MetalMania;
+  font-size: 100px;
+  position: static;
+  margin-left: 7em;
+}
+@font-face{
+  font-family:"MetalMania"
+  src: url(../LIBRERIAS/fontawesome/FONTS/MetalMania-Regular.ttf);
+}
