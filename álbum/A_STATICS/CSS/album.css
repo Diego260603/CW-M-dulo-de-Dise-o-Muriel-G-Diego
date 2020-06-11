@@ -1,0 +1,21 @@
+@font-face{
+  font-family: "Chido";
+  src: url(../LIBRERIAS/fontawesome/FONTS/MetalMania-Regular.ttf);
+}
+body{
+  background: rgb(60,61,70);
+  background: radial-gradient(circle, rgba(60,61,70,1) 0%, rgba(255,0,0,0.05646008403361347) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+td{
+  background-color: rgba(145, 145, 145, 0.77);
+ border:0.8em groove #E65C4C;
+ text-align: center;
+ font-family: "Chido";
+}
+.img{
+ border:0.6em groove rgba(129, 89, 28, 0.88);
+ margin: 2px;
+}
