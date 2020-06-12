@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Quantico";
+  src: url(../LIBRERIAS/fontawesome/FONTS/Quantico-Regular.ttf);
+}
+@font-face{
+  font-family: "Chido";
+  src: url(../LIBRERIAS/fontawesome/FONTS/MetalMania-Regular.ttf);
+}
+@font-face{
+  font-family: "Oswald";
+  src: url(../LIBRERIAS/fontawesome/FONTS/Oswald-VariableFont_wght.ttf);
+}
+body{
+  background-color: rgba(160, 168, 223, 0.77);
+  display: flex;
+  flex-flow: column wrap;
+}
+h1{
+  font-family: "Chido";
+  font-size: 20vh;
+  text-decoration: overline;
+  text-align: center;
+}
+table{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 300px;
+}
+th{
+  padding: 50px;
+  font-family: "Quantico";
+  font-size: 100px;
+  background-color: rgba(45, 45, 45, 0.87);
+  color: rgba(93, 12, 14, 0.9);
+}
+td{
+  text-align: center;
+  border-style: none;
+  background-color: rgba(88, 88, 88, 0.75);
+  color: rgba(116, 40, 42, 0.84);
+  font-family: "Oswald";
+  font-size: 40px;
+}
+footer{
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-family: "Chido";
+  font-size: 20vh;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline overline;
+  color: rgb(0, 0, 0);
+  background-color: rgba(83, 88, 121, 0.77);
+}
+.icono{
+  transition: background-color 0.3s ease-in-out;
+}
+.icono:hover{
+  background-color: rgba(164, 82, 97, 0.77);
+}
